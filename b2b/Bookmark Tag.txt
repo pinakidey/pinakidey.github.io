@@ -1,2 +1,0 @@
-<script src="http://s.web.informer.com/favorites-button.js" type="text/javascript" charset="UTF-8"></script>
-<a href="http://web.informer.com/providers/list"><img id="Webinformer_FavoritesButton_Button" src="http://s.web.informer.com/images/b2.gif" alt="Web Informer Button" style="border: 0;" /></a>
