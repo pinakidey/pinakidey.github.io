@@ -1,0 +1,12 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /bin/
+Disallow: /app/
+Disallow: /archive/
+Disallow: /doc/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+

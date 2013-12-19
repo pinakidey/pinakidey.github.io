@@ -1,0 +1,35 @@
+body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+	font-size:12px;
+}
+.page_wrap {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+.panel { display:block !important; }
+
+#sidebar, #footer, #contactpage, #print {
+	display: none !important;
+}
+
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+#printed-footnote {
+	border: 1px solid #666;
+	padding: 10px;
+	display:block;
+	text-align: center;
+}
+
+#chart { float:right;}
+hgroup { float:left; padding:10px;}
+header { float:right; }
+header p { width:100%; text-align: right; clear:right; }
+.panel {clear:both;}
+section { border-bottom:1px solid #ccc; padding:10px;}
+section .sub { float:right; color:#ccc !important; font-size:11px; background-color: #ccc; }
+.print_only { display: block;}

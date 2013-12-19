@@ -1,0 +1,7 @@
+#pic_frame { width:158px; height:173px; 
+background:url(../images/pic.jpg) no-repeat 0px 0px transparent;
+margin:0px 0 0 28px !important;
+top:24px;
+position:relative;
+}
+#sidebar {position:absolute; left:0;top:302px;}

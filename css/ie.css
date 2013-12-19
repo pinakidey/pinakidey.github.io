@@ -1,0 +1,14 @@
+/* because windoze IE doesnt like css transition, we have to use
+ an image to get the pic frame angle effect */
+#pic_frame_wrapper {
+width:243px; height:255px;
+background:url(../images/pic-frame.png) no-repeat 0 0 transparent;
+top:15px;
+}
+#pic_frame { width:158px; height:173px; 
+background:url(../images/pic.jpg) no-repeat 0px 0px transparent;
+margin:24px 0 0 28px;
+}
+#sidebar {
+position:absolute; left:0;top:302px;}
+}

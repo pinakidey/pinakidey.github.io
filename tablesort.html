@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!--<base href="http://www.ajaxdaddy.com/media/demos/play/1/table-sort/table-sort/" />-->
+
+  <title>frequency decoder ~ table sort (revisited) demo</title>
+  <link href="css/tablesort.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  
+<h1>TableSort (revisited) demo</h1>
+<h2>50 row table test</h2>
+
+<table id="test1" class="sortable-onload-3-reverse rowstyle-alt no-arrow" border="0" cellpadding="0" cellspacing="0">
+  <!--<caption>The Numbers Weekly World Chart (2007-03-08)</caption>-->
+  <thead>
+    <tr>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-0"><a title="Sort on "Degree" href="#">Degree</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-1"><a title="Sort on "Semester" href="#">Semester</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-2"><a title="Sort on "Course Name" href="#">Course Name</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-3"><a title="Sort on "Code" href="#">Code</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-4"><a title="Sort on "Instructor" href="#">Instructor</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-5"><a title="Sort on "Domain" href="#">Domain</a></th>
+      <!--<th style="-moz-user-select: none;" class="sortable-date-dmy fd-column-3"><a title="Sort on "Instructor" href="#">Instructor</a></th>
+      <th style="-moz-user-select: none;" class="sortable-currency fd-column-4"><a title="Sort on "Weekly Gross" href="#">Weekly Gross</a></th>
+      <th style="-moz-user-select: none;" class="sortable-numeric fd-column-5"><a title="Sort on "Change" href="#">Change</a></th>
+      <th style="-moz-user-select: none;" class="sortable-numeric fd-column-6"><a title="Sort on "Theaters" href="#">Theaters</a></th>-->
+      <th style="-moz-user-select: none;" class="sortable-numeric fd-column-6"><a title="Sort on "Credit" href="#">Credit</a></th>
+      <th style="-moz-user-select: none;" class="sortable-numeric fd-column-7"><a title="Sort on "Point" href="#">Point</a></th>
+      <th style="-moz-user-select: none;" class="sortable-text fd-column-8"><a title="Sort on "Grade" href="#">Grade</a></th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <tr class="">
+      <td>M.Tech.</td>
+      <td>III</td>
+      <td class="lft">VLSI Technology</td>
+      <td class="lft">EE 669</td>
+      <td class="lft"><a href="http://www.ee.iitb.ac.in/wiki/faculty/anilkg" target="_blank">Prof. Anil K.</a></td>
+      <td class="lft">EE</td>
+      <td>6</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr><tr class="alt">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Introduction to MEMS</td>
+      <td class="lft">EE 701</td>
+      <td class="lft"><a href="http://www.ee.iitb.ac.in/wiki/faculty/sdgupta" target="_blank">Prof. S. P. Duttagupta</a></td>
+      <td class="lft">EE</td>
+      <td>6</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Wavelets</td>
+      <td class="lft">EE 678</td>
+      <td class="lft"><a href="http://www.ee.iitb.ac.in/wiki/faculty/vmgadre/" target="_blank">Prof. V. M. Gadre</a></td>
+      <td class="lft">EE</td>
+      <td>6</td>
+      <td>&nbsp;</td>
+      <td>AU</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Biostatistics</td>
+      <td class="lft">BM 602</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/~sak/" target="_blank">Prof. S. Arunkumar</a></td>
+      <td class="lft">MATH</td>
+      <td>6</td>
+      <td>8</td>
+      <td>BB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Biomedical Microsystems</td>
+      <td class="lft">BM 658</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/srivastava-r" target="_blank">Prof. R. Srivastava</a></td>
+      <td class="lft">BME</td>
+      <td>6</td>
+      <td>10</td>
+      <td>AA</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Bioelectricity</td>
+      <td class="lft">BM 636</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/manchanda-r" target="_blank">Prof. R. Manchanda</a></td>
+      <td class="lft">BME</td>
+      <td>6</td>
+      <td>&nbsp;</td>
+      <td>AU</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Advanced Biomaterials</td>
+      <td class="lft">BM 656</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/banerjee-r" target="_blank">Prof. R. Banerjee</a></td>
+      <td class="lft">BME</td>
+      <td>6</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Clinical Physiology</td>
+      <td class="lft">BM 604</td>
+      <td class="lft"><a href="mailto:profvps@iitb.ac.in" target="_blank">Prof. V. P. Soni</a><br /><a href="mailto:yashlokhandwala@hotmail.com" target="_blank">Prof. Y. Lokhandwala</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>7</td>
+      <td>BC</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>II</td>
+      <td class="lft">Experimental and Quantitative Physiology</td>
+      <td class="lft">BM 610</td>
+      <td class="lft"><a href="http://www.che.iitb.ac.in/online/node/42" target="_blank">Prof. J. Bellare</a><br /><a href="http://www.bio.iitb.ac.in/people/faculty/tayalia-p" target="_blank">Prof. P. Tayalia</a><br /><a href="http://www.bio.iitb.ac.in/people/faculty/srivastava-r" target="_blank">Prof. R. Srivastava</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>10</td>
+      <td>AA</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Virtual Instrumentation in Biomedical Engineering</td>
+      <td class="lft">BM 627</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/mukherji-s" target="_blank">Prof. S. Mukherji</a></td>
+      <td class="lft">EECS</td>
+      <td>4</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Elements of Circuits and Instrumentation</td>
+      <td class="lft">BM 659</td>
+      <td class="lft"><a href="http://www.ee.iitb.ac.in/wiki/faculty/vmgadre/" target="_blank">Prof. V. M. Gadre</a></td>
+      <td class="lft">EE</td>
+      <td>3</td>
+      <td>8</td>
+      <td>BB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Signals and Systems for Biomedical Engineering</td>
+      <td class="lft">BM 661</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/srivastava-r" target="_blank">Prof. R. Srivastava</a></td>
+      <td class="lft">EE</td>
+      <td>3</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Electrodiagnostics, Therapy and Electrical Safety</td>
+      <td class="lft">BM 663</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/manchanda-r" target="_blank">Prof. R. Manchanda</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Introduction to Biomechanics</td>
+      <td class="lft">BM 633</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/sen-s" target="_blank">Prof. S. Sen</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>9</td>
+      <td>AB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Introduction to Bio-Nanotechnology</td>
+      <td class="lft">BM 631</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/srivastava-r" target="_blank">Prof. R. Srivastava</a><br /><a href="http://www.bio.iitb.ac.in/people/faculty/banerjee-r" target="_blank">Prof. R. Banerjee</a></td>
+      <td class="lft">BME</td>
+      <td>4</td>
+      <td>10</td>
+      <td>AA</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Cell Physiology and Biopotentials</td>
+      <td class="lft">BM 651</td>
+      <td class="lft"><a href="mailto:yashlokhandwala@hotmail.com" target="_blank">Prof. Y. Lokhandwala</a><br /><a href="http://www.bio.iitb.ac.in/people/faculty/manchanda-r" target="_blank">Prof. R. Manchanda</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>7</td>
+      <td>BC</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Biomaterials</td>
+      <td class="lft">BM 655</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/banerjee-r" target="_blank">Prof. R. Banerjee</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>8</td>
+      <td>BB</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Medical Imaging Physics</td>
+      <td class="lft">BM 653</td>
+      <td class="lft"><a href="http://www.bio.iitb.ac.in/people/faculty/ranjith-p" target="_blank">Prof. Ranjith P.</a></td>
+      <td class="lft">BME</td>
+      <td>3</td>
+      <td>10</td>
+      <td>AA</td>
+    </tr><tr class="">
+      <td>M.Tech.</td>
+      <td>I</td>
+      <td class="lft">Physiology for Engineers</td>
+      <td class="lft">BM 603</td>
+      <td class="lft"><a href="mailto:profvps@iitb.ac.in" target="_blank">Prof. V. P. Soni</a></td>
+      <td class="lft">BME</td>
+      <td>6</td>
+      <td>8</td>
+      <td>BB</td>
+    </tr></tbody>
+
+</table>
+<script type="text/javascript" src="js/tablesort.js"></script>
+</body></html>

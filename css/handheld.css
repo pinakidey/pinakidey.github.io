@@ -1,0 +1,6 @@
+/* because the Document Outline is to standard, and also since it is so minimalistic, there isnt any reason to re-style anything, it just works! */
+
+/* we could remove the print button, since its unlikely anyone is going to print from a mobile device. */
+#wrapper { width:100%;}
+#col3, #print { display: none !important; }
+header p { width:500px !important; background: none !important;}
